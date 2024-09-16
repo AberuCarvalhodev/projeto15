@@ -1,1 +1,54 @@
 @charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #f3e5f5;
+    --cor2: #ce03d8;
+    --cor3: #ab47bc;
+    --cor4: #8e24aa;
+    --cor5: #6a1b9a;
+
+    --fonte-destaque: "Falcons";
+
+}
+
+body, html {
+   width: 100vw;
+   height: 100vh;
+   background-color: var(--cor5); 
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+#login{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    width: 400px;
+    height: 700px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+#imagem {
+    background: var(--cor5) url(../imagens/BANNER.png) no-repeat center center;
+    background-size: cover;
+    height: 300px;
+}
+
+#formulario {
+    text-align: center;
+    padding: 10px;
+
+}
