@@ -9,11 +9,26 @@ Até 600px
 1200px para mais
 
 */
+:root {
+    --cor1: #f3e5f5;
+    --cor2: #ce03d8;
+    --cor3: #ab47bc;
+    --cor4: #8e24aa;
+    --cor5: #6a1b9a;
+
+    --fonte-destaque: "Falcons";
+
+}
 
 @media screen and (min-width: 768px) and (max-width:992px) {
+    body {
+        background-image: linear-gradient(to top, #6a1b9a, #8e24aa);
+    }
+
     #login {
         width: 85vw;
     }
+    
     #imagem {
         background: url(../imagens/BANNERtablet.png) no-repeat;
         float: left;
@@ -23,6 +38,10 @@ Até 600px
     }
 }
 @media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #6a1b9a, #8e24aa);
+    }
+
     #login {
         width: 992px;
         height: 60%;
@@ -32,7 +51,11 @@ Até 600px
         background: url(../imagens/BANNERtablet.png) no-repeat;
         background-size: cover;
         float: right;
-        width: 61%;
+        width: 50%;
         height: 100%;
+    }
+
+    p {
+    font-size: 1.5em;
     }
 }
