@@ -35,19 +35,21 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-    width: 400px;
+    width: 300px;
     height: 600px;
     background-color: aliceblue;
     border-radius: 20px;
 }
 
 #imagem {
+    display: block;
     background: var(--cor5) url(../imagens/BANNER.png) no-repeat center center;
     background-size: cover;
     height: 200px;
 }
 
 #formulario {
+    display: block;
     text-align: center;
     padding: 10px;
 

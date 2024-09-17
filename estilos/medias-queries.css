@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* 
+****** TYPICAL DEVICE BRACKPOINT****
+Até 600px
+600px à 768px
+768px à 992px
+992px à 1200px
+1200px para mais
+
+*/
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    #login {
+        width: 85vw;
+    }
+    #imagem {
+        background: url(../imagens/BANNERtablet.png) no-repeat;
+        float: left;
+        width: 40%;
+        height: 103%;
+        background-size: cover;
+    }
+}
+@media screen and (min-width: 992px) {
+    #login {
+        width: 992px;
+        height: 60%;
+    }
+
+    #imagem {
+        background: url(../imagens/BANNERtablet.png) no-repeat;
+        background-size: cover;
+        float: right;
+        width: 61%;
+        height: 100%;
+    }
+}
